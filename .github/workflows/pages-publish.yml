@@ -34,9 +34,9 @@ jobs:
         with:
           node-version: '20.x'
       - name: Install dependencies
-        run:  |
+        run: |
           cd website
-          npm ci
+          npm i
       - name: Build
         run: npm run build
       - name: Change direcotry to build path
