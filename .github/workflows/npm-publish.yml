@@ -21,8 +21,8 @@ jobs:
       - name: Build
         run: npm run build
         working-directory: ./react-circle-wave
-      - name: Copy README
-        run: cp ./README.md ./react-circle-wave
+      # - name: Copy README
+      #   run: cp ./README.md ./react-circle-wave
       - run: npm publish --access public
         working-directory: ./react-circle-wave
         env:
