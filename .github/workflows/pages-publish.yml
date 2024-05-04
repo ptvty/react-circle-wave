@@ -39,6 +39,7 @@ jobs:
       - name: Build website
         run: npm run build
         working-directory: ./website
+
       - name: Install demo-music-player dependencies
         run: npm ci
         working-directory: ./demo-music-player
@@ -47,6 +48,16 @@ jobs:
         working-directory: ./demo-music-player
       - name: Copy demo-music-player to website
         run: cp -R ./demo-music-player/build ./website/build/demo-music-player
+
+      - name: Install react-circle-wave dependencies
+        run: npm ci
+        working-directory: ./react-circle-wave
+      - name: Build storybook static
+        run: npm run buildbuild-storybook
+        working-directory: ./react-circle-wave
+      - name: Copy storybook to website
+        run: cp -R ./react-circle-wave/storybook-static ./website/build/storybook-static
+
       - name: Setup Pages
         uses: actions/configure-pages@v5
       - name: Upload artifact

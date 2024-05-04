@@ -23,3 +23,6 @@ jobs:
         working-directory: ./react-circle-wave
       - name: Copy README
         run: cp ./README.md ./react-circle-wave
+      - run: npm publish --access public
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
