@@ -9,11 +9,10 @@ body {
 
 p {
     max-width: 860px;
-    margin: auto;
     color: 'white';
     text-align: 'center';
     padding-bottom: 60px;
-    margin: 'auto';
+    margin: auto;
     line-height: 2;
     color: white;
 }
