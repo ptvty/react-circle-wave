@@ -46,9 +46,7 @@ jobs:
         run: npm run build
         working-directory: ./demo-music-player
       - name: Copy demo-music-player to website
-        run: |
-          mkdir ./website/build/demo-music-player
-          cp -R ./demo-music-player/build ./website/build/demo-music-player
+        run: cp -R ./demo-music-player/build ./website/build/demo-music-player
       - name: Setup Pages
         uses: actions/configure-pages@v5
       - name: Upload artifact

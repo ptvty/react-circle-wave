@@ -18,7 +18,7 @@ function App() {
             </p>
 
             <div>
-                <a href='./demo' className='button'>Demo</a>
+                <a href='./demo-music-player' className='button'>Demo</a>
                 <a href='./storybook-static' className='button'>Storybook</a>
                 <a href='https://npmjs.com/package/react-circle-wave' className='button'>npm</a>
                 <a href='https://github.com/ptvty/react-circle-wave' className='button'>Github</a>
