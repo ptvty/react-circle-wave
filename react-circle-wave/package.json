@@ -1,6 +1,6 @@
 {
   "name": "react-circle-wave",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "React component designed to create a visually appealing circle with a wave effect animation around it",
   "main": "dist/index.js",
   "scripts": {
