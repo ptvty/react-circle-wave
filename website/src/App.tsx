@@ -13,8 +13,9 @@ function App() {
             </CircleWave>
 
             <p>
-                A React component designed to create a visually appealing circle with a animated wave effect around it. <br/>
-                This component can be easily integrated into your React application to add dynamic and eye-catching visuals to your UI.
+                A React component to create a visually appealing circle with an animated wave effect around it.
+                <br />
+                Integrate this component into your React application to add dynamic and eye-catching visuals to your UI!
             </p>
 
             <div>

@@ -1,6 +1,6 @@
 # react-circle-wave
 
-A React component designed to create a visually appealing circle with an animated wave effect around it. Integrated this component into your React application to add dynamic and eye-catching visuals to your UI!
+A React component to create a visually appealing circle with an animated wave effect around it. Integrate this component into your React application to add dynamic and eye-catching visuals to your UI!
 
 ## Demo
 
