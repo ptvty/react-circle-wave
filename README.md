@@ -2,6 +2,10 @@
 
 A React component designed to create a visually appealing circle with an animated wave effect around it. Integrated this component into your React application to add dynamic and eye-catching visuals to your UI!
 
+## Demo
+
+On the project's [website](https://ptvty.github.io/react-circle-wave/), you can access [Storybook](https://ptvty.github.io/react-circle-wave/storybook-static/) and a simple [music player](https://ptvty.github.io/react-circle-wave/demo-music-player/) to see the component in action.
+
 ## Installation
 
 You can install via npm:
